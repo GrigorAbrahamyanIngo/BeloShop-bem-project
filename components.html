@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>components</title>
+</head>
+<body>
+
+    <div class="container">
+        <a href="" class="default-link">Link</a>
+        <button class="default-btn">Click me</button>
+        <input type="text" class="text-field" placeholder="Телефон"/>
+        <h2 class="subtitle">Каталог</h2>
+        <img class="logo" width="154"  src="img/logo.svg" alt="VeloShop" >
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Каталог</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Новинки</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Заказать</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+        <form action="" class="callback-form">
+            <input type="tel" name="tel" class="text-field callback-form__inp" placeholder="Телефон">
+            <button class="default-btn callback-form__btn" type="submit">Click me</button>
+        </form>
+
+        <article class="product-card">
+            <img class="product-card__img"  src="img/img1.png"  alt="Belaciped" />
+            <div class="product-card__body">
+                <div class="product-card__body-top">
+                    <h3 class="product-card__title">Велосипед BMX
+                        Tech Team Goof 20</h3>
+                    <strong class="product-card__price">12 830 руб</strong>
+                </div>
+                <button class="default-btn product-card__btn">Click me</button>
+            </div>
+        </article>
+
+        <article class="product-card product-card_big">
+            <img class="product-card__img product-card__img_big"  src="img/5.jpg"  alt="Belaciped" />
+            <div class="product-card__body product-card__body_big">
+                <div class="product-card__body-top">
+                    <h3 class="product-card__title">Велосипед BMX
+                        Tech Team Goof 20</h3>
+                    <strong class="product-card__price">12 830 руб</strong>
+                </div>
+                <button class="default-btn product-card__btn">Click me</button>
+            </div>
+        </article>
+    </div>
+</body>
+</html>
